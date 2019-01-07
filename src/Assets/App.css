@@ -1,0 +1,25 @@
+.App {
+  background-color: black;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.button {
+  margin: 0.5em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 0.1px solid whitesmoke;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+.button:hover {
+  color: black;
+  background-color: tomato;
+}
