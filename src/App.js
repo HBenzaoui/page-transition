@@ -2,18 +2,17 @@ import React, { Component } from 'react';
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './layouts/NavBar';
-import { Router } from 'react-router';
-// import
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <React.Fragment>
           <NavBar />
-          {/* <Home /> */}
-          {/* <About /> */}
-        </div>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+        </React.Fragment>
       </Router>
     );
   }

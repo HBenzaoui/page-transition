@@ -2,7 +2,7 @@ import React from 'react';
 import redux from '../Assets/images/redux.svg';
 const About = () => {
   return (
-    <div>
+    <div className="container">
       <img src={redux} width="200px" alt="Redu logo" />
       <h1>This is the second page </h1>
       <p>
