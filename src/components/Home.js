@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="container">
       <img src={reactLogo} width="200px" alt="React logo" />
-      <h1>Hello React</h1>
+      <h1 style={{ color: 'gray' }}>Hello React</h1>
     </div>
   );
 };
